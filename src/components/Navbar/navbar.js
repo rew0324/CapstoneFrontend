@@ -22,7 +22,7 @@ export default function Navbar() {
             
             <ul className='hidden md:flex text-white gap-5'>
                 <li className='p-4'><NavLink to='/'>Home</NavLink></li>
-                <li className='p-4'><NavLink to='/'>Cash Flow Calculator</NavLink></li>
+                <li className='p-4'><a href='http://localhost:3000'>Cash Flow Calculator</a></li>
                 <li className='p-4'><NavLink to='/about'>About Us</NavLink></li>
                 <li className='p-4'><NavLink to='/contact'>Contact</NavLink></li>
             </ul>
